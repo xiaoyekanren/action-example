@@ -26,6 +26,6 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: echo
         run: |
-          echo java -version
-          echo node -v
+          java -version
+          node -v
           echo Hello World!
